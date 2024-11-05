@@ -7,8 +7,8 @@ import { RenderPass } from 'three/examples/jsm/postprocessing/RenderPass'
 import { ShaderPass } from 'three/examples/jsm/postprocessing/ShaderPass'
 import { RGBShiftShader } from 'three/examples/jsm/shaders/RGBShiftShader'
 import { gsap } from 'gsap'
-import LocomotiveScroll  from 'locomotive-scroll'
-const locomotiveScroll = new LocomotiveScroll()
+// import LocomotiveScroll  from 'locomotive-scroll'
+// const locomotiveScroll = new LocomotiveScroll()
 
 const scene = new THREE.Scene()
 const camera = new THREE.PerspectiveCamera(35, window.innerWidth / window.innerHeight, 0.1, 1000)
